@@ -1,27 +1,28 @@
 public class Utils {
 
-
     // check arr Int is not empty
     public static boolean arrIntNotEmpty (int [] a){
-        if (a.length != 0) {
-            return true;
-        }
-        return false;
+
+        return a.length != 0;
     }
 
     // check arr Double is not empty
     public static boolean arrDoubleNotEmpty (double [] a){
         if (a.length != 0) {
+
             return true;
         }
+
         return false;
     }
 
     // check arr String is not empty
     public static boolean arrStringNotEmpty (String [] a){
         if (a.length != 0) {
+
             return true;
         }
+
         return false;
     }
 
@@ -33,6 +34,7 @@ public class Utils {
                 countEven++;
             }
         }
+
         return countEven;
     }
 
@@ -44,18 +46,22 @@ public class Utils {
                 countOdd++;
             }
         }
+
         return countOdd;
     }
 
     // Sum of array's elements
-
     public static int sumOfElementsOfArray(int [] a) {
         int sum = 0;
         for (int i = 0; i < a.length; i++) {
             sum += a[i];
         }
+
         return sum;
     }
 
+    public static boolean isStringValid (String a) {
 
+        return a!=null && a.length() > 0;
+    }
 }

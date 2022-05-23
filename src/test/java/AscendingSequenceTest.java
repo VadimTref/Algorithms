@@ -42,7 +42,7 @@ public class AscendingSequenceTest {
         int step = 1;
         int[] expectedResult = {-10, -9, -8, -7};
 
-        AscendingSequence aS = new AscendingSequence();
+//        AscendingSequence aS = new AscendingSequence();
         int[] actualResult = aS.ascendingSequenceAlgorithm(start, end, step);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
@@ -57,7 +57,7 @@ public class AscendingSequenceTest {
         int step = 1;
         int[] expectedResult = {-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5};
 
-        AscendingSequence aS = new AscendingSequence();
+//        AscendingSequence aS = new AscendingSequence();
         int[] actualResult = aS.ascendingSequenceAlgorithm(start, end, step);
 
 
@@ -73,7 +73,7 @@ public class AscendingSequenceTest {
         int step = 2;
         int[] expectedResult = {0, 2, 4};
 
-        AscendingSequence aS = new AscendingSequence();
+//        AscendingSequence aS = new AscendingSequence();
         int[] actualResult = aS.ascendingSequenceAlgorithm(start, end, step);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
@@ -88,7 +88,7 @@ public class AscendingSequenceTest {
         int step = 2;
         int[] expectedResult = {};  // must be empty
 
-        AscendingSequence aS = new AscendingSequence();
+//        AscendingSequence aS = new AscendingSequence();
         int[] actualResult = aS.ascendingSequenceAlgorithm(start, end, step);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
@@ -103,7 +103,7 @@ public class AscendingSequenceTest {
         int step = -1;
         int[] expectedResult = {};  // must be empty
 
-        AscendingSequence aS = new AscendingSequence();
+//        AscendingSequence aS = new AscendingSequence();
         int[] actualResult = aS.ascendingSequenceAlgorithm(start, end, step);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
@@ -118,7 +118,7 @@ public class AscendingSequenceTest {
         int step = 0;
         int[] expectedResult = {};  // must be empty
 
-        AscendingSequence aS = new AscendingSequence();
+//        AscendingSequence aS = new AscendingSequence();
         int[] actualResult = aS.ascendingSequenceAlgorithm(start, end, step);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
@@ -132,7 +132,7 @@ public class AscendingSequenceTest {
         int step = 0;
         int[] expectedResult = {};  // must be empty
 
-        AscendingSequence aS = new AscendingSequence();
+//        AscendingSequence aS = new AscendingSequence();
         int[] actualResult = aS.ascendingSequenceAlgorithm(start, end, step);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
@@ -146,7 +146,7 @@ public class AscendingSequenceTest {
         int step = 2;
         int[] expectedResult = {-5, -3, -1, 1, 3, 5};  // must be empty
 
-        AscendingSequence aS = new AscendingSequence();
+//        AscendingSequence aS = new AscendingSequence();
         int[] actualResult = aS.ascendingSequenceAlgorithm(start, end, step);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);

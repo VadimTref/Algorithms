@@ -9,9 +9,10 @@ public class SumArray {
 
     public int sumOfArray(int[] a) {
         if (Utils.arrIntNotEmpty(a)) {
-            return (Utils.sumOfElementsOfArray(a));
 
+            return (Utils.sumOfElementsOfArray(a));
         }
+
         return 0;
     }
 

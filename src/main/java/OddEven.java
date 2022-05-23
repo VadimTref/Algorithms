@@ -11,17 +11,17 @@ public class OddEven {
      * 2147483647 + 1 →  “Undefined”
      */
 
-
-
-
-    public String oddOrEvenNumber(int a){
-        if (a == (int) a && a < Integer.MAX_VALUE && a > Integer.MIN_VALUE) {
+    public String oddOrEvenNumber(long a){
+        if (a <= 2147483647L && a >= -2147483647L) {
             if (a % 2 != 0) {
+
                 return "Odd";
             } else {
+
                 return "Even";
             }
         } else {
+
             return "Undefined";
         }
     }
